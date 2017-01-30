@@ -1,5 +1,9 @@
 # Otterbein Crawler
 
+## Get Repo
+
+- clone the repository down into your home folder on mac or linux. Or clone into your root directory on windows. Avoid cloning into your user directory on windows because there are permissions issues that often arise.
+
 
 ## Docker
 
@@ -23,6 +27,8 @@ This is a docker container for python 3 and scrapy all the initial libraries are
 - scrapy
 - scrapyjs
 
+
+
 ### build
 
 ` docker build -t scrapy ` Builds the docker image
@@ -39,3 +45,4 @@ To run in the backgroud run
 Then attach to the container
 
 ```docker attact scrapy```
+
